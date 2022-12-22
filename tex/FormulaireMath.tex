@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[french]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage[T1]{fontenc}
+\usepackage{comment}
+\usepackage{authblk}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{biblatex}
+%\addbibresource{biblio.bib}
+\usepackage{csquotes}
+\usepackage{multicol}
+\newtheorem{theorem}{Theorem}
+
+\title{Formulaire de mathématiques}
+\author{Adrien Hernandez}
+\date{}
+
+\begin{document}
+
+\maketitle
+\section{Analyse}
+\subsection{Calcul différentiel}
+
+\subsection{Calcul intégral}
+\begin{theorem}[King's property]
+
+    $$ \int_a^b f(x) \mathrm{d}x = \int_b^a f(a+b-x) \mathrm{d}x $$
+    
+\end{theorem}
+
+\section{Algèbre}
+
+\section{Complexes}
+\begin{theorem}[De Moivre]
+    $$(\cos(\theta) + \sin(\theta))^n =  \cos(n\theta) + \sin(n\theta)$$
+\end{theorem}
+
+\section{Probabilités}
+\end{document}
