@@ -1,3 +1,7 @@
 tex/*
 !tex/*.pdf
 !tex/*.tex
+
+template/*
+!template/*.pdf
+!template/*.tex
